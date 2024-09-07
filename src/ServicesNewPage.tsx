@@ -1,5 +1,4 @@
 import React from 'react'
-import DeploymentForm from './DeploymentForm';
 import Layout from './Layout';
 
 const ServicesNewPage = () => {

@@ -28,7 +28,7 @@ const priceOptions = [
 ];
 
 const DeploymentForm = () => {
-  const [port, setPort] = useState("8080");
+  const [port, setPort] = useState("8088");
   const [command, setCommand] = useState("My-deployment");
   const [args, setArgs] = useState("My-deployment");
   const [envVars, setEnvVars] = useState("ENV_NAME=ENV_VALUE");
@@ -68,7 +68,7 @@ const DeploymentForm = () => {
             value={port}
             onChange={(e) => setPort(e.target.value)}
             className="w-full p-2 bg-transparent border-2 border-gray-800 rounded"
-            placeholder="8080"
+            placeholder="8088"
           />
         </div>
 
